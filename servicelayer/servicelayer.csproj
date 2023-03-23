@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\respositorylayer\respositorylayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="service\implentation\" />
+    <Folder Include="service\contract\" />
+  </ItemGroup>
+
+</Project>
